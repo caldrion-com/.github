@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Caldrion website
+    url: https://www.caldrion.com
+    about: Learn about Caldrion and its portfolio.
+  - name: Contact Caldrion
+    url: https://www.caldrion.com/contact
+    about: General enquiries, partnerships and private reports (including security issues) — please don't post those publicly.

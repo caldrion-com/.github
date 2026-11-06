@@ -1,0 +1,41 @@
+name: Feature request
+description: Propose a new capability or an improvement to an existing one.
+title: "[Feature]: "
+type: Feature
+labels: ["needs-triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Who is affected and what are they unable to do today? Describe the problem, not the solution.
+      placeholder: "As a <type of user>, I can't <goal> because <reason>."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should we build? Include mock-ups, links or examples if you have them.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other approaches or workarounds, and why they fall short.
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How will we know it's done? Use a task list.
+      value: |
+        - [ ] 
+        - [ ] 
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Evidence (analytics, support requests, research), related issues, deadlines.

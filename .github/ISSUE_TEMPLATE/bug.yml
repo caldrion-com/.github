@@ -1,0 +1,70 @@
+name: Bug report
+description: Something is broken or behaves differently from what it should.
+title: "[Bug]: "
+type: Bug
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Please search existing issues first. **Do not report security vulnerabilities here** — see the repository's Security section or email the contact on https://www.caldrion.com/contact.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the problem, including any error message shown.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The exact steps (URL, screen, inputs) that make the problem appear.
+      placeholder: |
+        1. Go to '...'
+        2. Tap / click '...'
+        3. See error
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Where did you see it? Select all that apply.
+      multiple: true
+      options:
+        - Web (desktop browser)
+        - Web (mobile browser)
+        - iPhone (iOS)
+        - iPad (iPadOS)
+        - Apple Watch (watchOS)
+        - Mac (macOS)
+        - Android / Wear OS
+        - API / Cloudflare Worker
+        - MCP server
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: App version and build (Settings › About), browser and OS version, or the deployed commit / Worker version.
+      placeholder: "e.g. 1.0.0 (42), iOS 26.1 / Safari 26 on macOS 15"
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, screenshots or recordings
+      description: Paste relevant log output (it will be formatted as code) — remove any personal data, tokens or secrets first.
+      render: shell
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else?
+      description: How often it happens, when it started, workarounds you found.

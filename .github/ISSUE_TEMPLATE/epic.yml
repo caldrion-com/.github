@@ -1,0 +1,44 @@
+name: Epic
+description: A shippable body of work made of Features, Tasks and Bugs (usually weeks, not months).
+title: "[Epic]: "
+type: Epic
+body:
+  - type: markdown
+    attributes:
+      value: |
+        An Epic groups Features, Tasks and Bugs as **sub-issues** and is itself a sub-issue of an **Initiative**. Hierarchy: Initiative › Epic › Feature / Task / Bug.
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What is true for users or the business when this Epic ships?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: The pieces of work in this Epic. Convert each line to a sub-issue once it is created.
+      value: |
+        - [ ] 
+        - [ ] 
+        - [ ] 
+    validations:
+      required: true
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Out of scope
+      description: What this Epic deliberately does not cover.
+  - type: textarea
+    id: metrics
+    attributes:
+      label: Success metrics
+      description: How we will measure that the outcome was achieved (metric, baseline, target).
+    validations:
+      required: true
+  - type: input
+    id: initiative
+    attributes:
+      label: Parent initiative
+      placeholder: "caldrion-com/<repo>#123"

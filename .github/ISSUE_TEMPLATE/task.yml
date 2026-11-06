@@ -1,0 +1,28 @@
+name: Task
+description: A specific, well-defined piece of work (chore, refactor, ops, content, docs).
+title: "[Task]: "
+type: Task
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why this needs doing, with links to the relevant code, docs or issues.
+    validations:
+      required: true
+  - type: textarea
+    id: todo
+    attributes:
+      label: Definition of done
+      description: The concrete steps or checks that complete this task.
+      value: |
+        - [ ] 
+        - [ ] 
+    validations:
+      required: true
+  - type: input
+    id: parent
+    attributes:
+      label: Parent epic
+      description: The Epic this belongs to (it will also be linked as a sub-issue).
+      placeholder: "#123 or caldrion-com/<repo>#123"
