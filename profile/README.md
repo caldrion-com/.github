@@ -57,7 +57,7 @@ Caldrion Ventures, our venture studio, builds and runs these products. Repositor
 
 - **Issue forms.** Every repository uses the organization's issue forms: Bug, Feature, Task, Epic and Initiative. New bugs and feature requests start with `needs-triage`.
 - **Hierarchy.** Work is organised with issue types and sub-issues: **Initiative** (a portfolio outcome over a quarter or more) › **Epic** (a shippable body of work) › **Feature / Task / Bug**. Blocking work is recorded as issue dependencies.
-- **Project boards.** Each product has a GitHub Project with Status (Backlog, Ready, In progress, In review, Done), Priority (P0–P3), Size (XS–XL) and two-week iterations. Portfolio board: [Portfolio · Caldrion](https://github.com/orgs/caldrion-com/projects/14). Other boards include [Caldrion apps](https://github.com/orgs/caldrion-com/projects/1) · [caldrion.com website](https://github.com/orgs/caldrion-com/projects/2).
+- **Project boards.** Each product has a GitHub Project with Status (Backlog, Ready, In progress, In review, Done), Priority (P0–P3), Size (XS–XL) and two-week iterations. A portfolio board rolls them up; the boards are visible to organization members.
 - **Pull requests** link their issue with `Closes #<n>` and follow the [pull request template](https://github.com/caldrion-com/.github/blob/main/.github/pull_request_template.md).
 
 ### Work with us
