@@ -47,9 +47,9 @@ Caldrion Ventures, our venture studio, builds and runs these products. Repositor
 | Addicted2Fluffy | Official site of Fluffy, Upper East Side nightlife host | [addicted2fluffy.com](https://addicted2fluffy.com) | [addicted2fluffy-com](https://github.com/caldrion-com/addicted2fluffy-com) |
 | CRM and Relay | The studio CRM (console, REST API, MCP server) and its iPhone, iPad and Apple Watch app | — | [crm](https://github.com/caldrion-com/crm) · [relay-apple](https://github.com/caldrion-com/relay-apple) |
 
-**Studio platform:** [venture-template](https://github.com/caldrion-com/venture-template) (starting point for every venture: Hono + TypeScript on Cloudflare Workers, D1) ·
+**Studio platform:** [venture-template](https://github.com/moraph-com/hypervisor/tree/main/website-template) (starting point for every venture: Hono + TypeScript on Cloudflare Workers, D1) ·
 [studio-kit](https://github.com/caldrion-com/studio-kit) (shared measurement and security layer) ·
-[coding-best-practices](https://github.com/caldrion-com/coding-best-practices) (how every repo is built) ·
+[coding-best-practices](https://github.com/moraph-com/hypervisor/tree/main/coding-best-practices) (how every repo is built) ·
 [watchdog](https://github.com/caldrion-com/watchdog) (synthetic monitoring every 5 minutes) ·
 [d1-backup](https://github.com/caldrion-com/d1-backup) (nightly D1 backups to R2).
 
