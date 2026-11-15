@@ -16,7 +16,7 @@
 
 ---
 
-Caldrion is a **single family office and principal investor**, with offices in New York and Sydney. We source,
+Caldrion is a **single family office and principal investor** based in New York. We source,
 underwrite, own and actively manage every investment ourselves, as operators rather than passive allocators, and we
 invest permanent family capital from our own balance sheet.
 
