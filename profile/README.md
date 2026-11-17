@@ -27,7 +27,7 @@ invest permanent family capital from our own balance sheet.
 | [Real Estate](https://www.caldrion.com/realestate) | Value-add multifamily, light industrial and specialty real estate in US markets |
 | [Private Credit](https://www.caldrion.com/privatecredit) | First-lien senior secured loans: bridge, construction, asset-based and NAV lending |
 | [Private Equity](https://www.caldrion.com/privateequity) | Lower middle market North American businesses: family successions, MBOs and carve-outs |
-| [Digital Assets](https://www.caldrion.com/cryptocurrencies) | Proprietary strategies with institutional-grade custody |
+| [Digital Assets](https://www.caldrion.com/digital-assets) | Proprietary strategies with institutional-grade custody |
 | [Art & Collectibles](https://www.caldrion.com/artandcollectibles) | Post-war and contemporary art, collector cars, watches and fine wine, acquired by private treaty |
 | [Venture Capital](https://ventures.caldrion.com) | Capital and company creation through Caldrion Ventures, our venture studio |
 
@@ -44,11 +44,11 @@ Caldrion Ventures, our venture studio, builds and runs these products. Repositor
 | Inverth | Website of Inverth Commercial Holdings LLC, commercial property leasing across the US | [inverth.com](https://inverth.com) | [inverth-realestate-web](https://github.com/caldrion-com/inverth-realestate-web) |
 | TechFusion Data Labs | Website of TechFusion's frontier forensics division | [techfusiondatalabs.com](https://techfusiondatalabs.com) | [techfusiondatalabs-com](https://github.com/caldrion-com/techfusiondatalabs-com) |
 | Addicted2Fluffy | Official site of Fluffy, Upper East Side nightlife host | [addicted2fluffy.com](https://addicted2fluffy.com) | [addicted2fluffy-com](https://github.com/caldrion-com/addicted2fluffy-com) |
-| CRM and Relay | The studio CRM (console, REST API, MCP server) and its iPhone, iPad and Apple Watch app | — | [crm](https://github.com/caldrion-com/crm) · [relay-apple](https://github.com/caldrion-com/relay-apple) |
+| CRM and Relay | The studio CRM (console, REST API, MCP server) and its app for iPhone, iPad, Apple Watch, Android and Wear OS (in development) | — | [crm](https://github.com/caldrion-com/crm) · [relay-apple](https://github.com/caldrion-com/relay-apple) |
 
-**Studio platform:** [venture-template](https://github.com/moraph-com/hypervisor/tree/main/website-template) (starting point for every venture: Hono + TypeScript on Cloudflare Workers, D1) ·
+**Studio platform:** venture-template (starting point for every venture: Hono + TypeScript on Cloudflare Workers, D1) ·
 [studio-kit](https://github.com/caldrion-com/studio-kit) (shared measurement and security layer) ·
-[coding-best-practices](https://github.com/moraph-com/hypervisor/tree/main/coding-best-practices) (how every repo is built) ·
+coding-best-practices (how every repo is built) ·
 [watchdog](https://github.com/caldrion-com/watchdog) (synthetic monitoring every 5 minutes) ·
 [d1-backup](https://github.com/caldrion-com/d1-backup) (nightly D1 backups to R2).
 
