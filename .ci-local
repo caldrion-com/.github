@@ -1,0 +1,5 @@
+#!/bin/sh
+# Pull request checks, run on a Mac by Factory's machine/ci-local.sh, one command a line from the repo root in a
+# cleared environment. Offline and standard library only: YAML parses, issue forms and their config have the shape
+# GitHub needs, the organisation profile exists and every local file a Markdown file links to is there.
+ruby scripts/check-repo.rb
