@@ -8,6 +8,10 @@
 # Run from anywhere: ruby scripts/check-repo.rb. Exits 1 and lists each problem when anything is wrong.
 require "yaml"
 
+# ci-local runs this in a cleared environment (no LANG), where Ruby would read files as US-ASCII and stop on the
+# first non-ASCII character. The repo's files are UTF-8.
+Encoding.default_external = Encoding::UTF_8
+
 ROOT = File.expand_path("..", __dir__)
 Dir.chdir(ROOT)
 problems = []
