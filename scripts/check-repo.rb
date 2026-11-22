@@ -23,7 +23,7 @@ docs = {}
 yaml_files.each do |f|
   checked += 1
   begin
-    docs[f] = YAML.safe_load(File.read(f))
+    docs[f] = YAML.safe_load(File.read(f, encoding: "UTF-8"))
   rescue Psych::Exception => e
     problems << "#{f}: YAML does not parse: #{e.message}"
   end
@@ -109,7 +109,7 @@ problems << "profile/README.md is missing (GitHub shows it on the organisation p
 Dir.glob("**/*.md", File::FNM_DOTMATCH).reject { |f| f.start_with?(".git/") }.sort.each do |f|
   checked += 1
   md_count += 1
-  text = File.read(f).gsub(/```.*?```/m, "")
+  text = File.read(f, encoding: "UTF-8").gsub(/```.*?```/m, "")
   targets = text.scan(/!?\[[^\]]*\]\(\s*<?([^)\s>]+)/).flatten + text.scan(/\b(?:src|href)\s*=\s*["']([^"']+)["']/i).flatten
   targets.each do |t|
     next if t.match?(%r{\A(?:[a-z][a-z0-9+.-]*:|//|#)}i)
