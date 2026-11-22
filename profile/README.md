@@ -37,20 +37,20 @@ Caldrion Ventures, our venture studio, builds and runs these products. Repositor
 
 | Product | What it is | Live | Repositories |
 | --- | --- | --- | --- |
-| Caldrion | The Caldrion LLC website | [www.caldrion.com](https://www.caldrion.com) | [caldrion-com](https://github.com/caldrion-com/caldrion-com) |
-| Optimal Case | Compare Manhattan and Hamptons apartments by true cost, estimate cash to buy, test a property's numbers | [www.optimalcase.com](https://www.optimalcase.com) | [optimalcase-com](https://github.com/caldrion-com/optimalcase-com) · [optimalcase-apple](https://github.com/caldrion-com/optimalcase-apple) (iPhone, iPad, Android) |
-| Fitness Jesus | Three real places to move in New York City, matched to mood, budget and neighbourhood | [www.fitnessjesus.com](https://www.fitnessjesus.com) | [fitnessjesus-com](https://github.com/caldrion-com/fitnessjesus-com) · [fitnessjesus-apple](https://github.com/caldrion-com/fitnessjesus-apple) (iPhone, Apple Watch) |
-| Slots at Sea | A guide to cruise ship casinos | [www.slotsatsea.com](https://www.slotsatsea.com) | [slotsatsea-com](https://github.com/caldrion-com/slotsatsea-com) · [slotsatsea-apple](https://github.com/caldrion-com/slotsatsea-apple) (iPhone, Apple Watch) |
-| Inverth | Website of Inverth Commercial Holdings LLC, commercial property leasing across the US | [inverth.com](https://inverth.com) | [inverth-realestate-web](https://github.com/caldrion-com/inverth-realestate-web) |
-| TechFusion Data Labs | Website of TechFusion's frontier forensics division | [techfusiondatalabs.com](https://techfusiondatalabs.com) | [techfusiondatalabs-com](https://github.com/caldrion-com/techfusiondatalabs-com) |
-| Addicted2Fluffy | Official site of Fluffy, Upper East Side nightlife host | [addicted2fluffy.com](https://addicted2fluffy.com) | [addicted2fluffy-com](https://github.com/caldrion-com/addicted2fluffy-com) |
-| CRM and Relay | The studio CRM (console, REST API, MCP server) and its app for iPhone, iPad, Apple Watch, Android and Wear OS (in development) | — | [crm](https://github.com/caldrion-com/crm) · [relay-apple](https://github.com/caldrion-com/relay-apple) |
+| Caldrion | The Caldrion LLC website | [www.caldrion.com](https://www.caldrion.com) | caldrion-com |
+| Optimal Case | Compare Manhattan and Hamptons apartments by true cost, estimate cash to buy, test a property's numbers | [www.optimalcase.com](https://www.optimalcase.com) | optimalcase-com · optimalcase-apple (iPhone, iPad, Android) |
+| Fitness Jesus | Three real places to move in New York City, matched to mood, budget and neighbourhood | [www.fitnessjesus.com](https://www.fitnessjesus.com) | fitnessjesus-com · fitnessjesus-apple (iPhone, Apple Watch) |
+| Slots at Sea | A guide to cruise ship casinos | [www.slotsatsea.com](https://www.slotsatsea.com) | slotsatsea-com · slotsatsea-apple (iPhone, Apple Watch) |
+| Inverth | Website of Inverth Commercial Holdings LLC, commercial property leasing across the US | [inverth.com](https://inverth.com) | inverth-realestate-web |
+| TechFusion Data Labs | Website of TechFusion's frontier forensics division | [techfusiondatalabs.com](https://techfusiondatalabs.com) | techfusiondatalabs-com |
+| Addicted2Fluffy | Official site of Fluffy, Upper East Side nightlife host | [addicted2fluffy.com](https://addicted2fluffy.com) | addicted2fluffy-com |
+| CRM and Relay | The studio CRM (console, REST API, MCP server) and its app for iPhone, iPad, Apple Watch, Android and Wear OS (in development) | — | crm · relay-apple |
 
 **Studio platform:** venture-template (starting point for every venture: Hono + TypeScript on Cloudflare Workers, D1) ·
-[studio-kit](https://github.com/caldrion-com/studio-kit) (shared measurement and security layer) ·
+studio-kit (shared measurement and security layer) ·
 coding-best-practices (how every repo is built) ·
-[watchdog](https://github.com/caldrion-com/watchdog) (synthetic monitoring every 5 minutes) ·
-[d1-backup](https://github.com/caldrion-com/d1-backup) (nightly D1 backups to R2).
+watchdog (synthetic monitoring every 5 minutes) ·
+d1-backup (nightly D1 backups to R2).
 
 ### How we work
 
