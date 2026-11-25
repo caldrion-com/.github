@@ -1,33 +1,66 @@
-## Summary
+<!-- Title: the plain-English outcome ("Charge each order only once, even if Pay is clicked repeatedly"), not a
+code name. Replace every example below. The standard: https://github.com/moraph-com/mainspring/blob/main/docs/work-tracking-writing-standard.md, section 7. -->
 
-<!-- What does this PR change, and why? Keep it to a few sentences. -->
+## In plain English
 
-## Linked issue
+The extended version for a business reader who has not seen the code or the conversation: what this is, why it was
+needed, what changes for whom once it is live, what was checked, and anything the owner should know or do. Several
+short paragraphs; define any technical term in brackets the first time.
 
-Closes #<!-- issue number; for another repo use caldrion-com/<repo>#<n> -->
+## What this changes
 
-## Type of change
+Two to four plain sentences. What is different for a customer or staff member once this is live. If nothing visible
+changes, say so and say what improves behind the scenes.
 
-- [ ] Bug fix
-- [ ] Feature
-- [ ] Task / chore / refactor
-- [ ] Documentation
-- [ ] Dependency update
-- [ ] Breaking change (migration, API contract or config change — describe below)
+Closes #
 
-## Screenshots
+## Why
 
-<!-- Before / after for any visible change (web at phone and desktop width, app screens). Delete if not applicable. -->
+One or two sentences summarising the problem, so the reader does not have to open the issue. Link to the issue for
+the full background.
 
-## Test plan
+## Before and after
 
-<!-- How you verified this: commands run (e.g. `npm test`, `npm run check`, `swift test`), devices/browsers checked, preview URL. -->
+| | Before | After |
+|---|--------|-------|
+| What the customer experiences | | |
+| Relevant number (speed, error rate, cost) | | |
 
-## Checklist
+Screenshots or a short recording for anything visible.
 
-- [ ] The PR is linked to an issue and added to the product's project board
-- [ ] Tests added or updated, and they pass locally / in CI
-- [ ] README and docs updated where behaviour, setup or deployment changed
-- [ ] D1 migrations, new bindings, env vars or secrets (names only) are listed above
-- [ ] No secrets, tokens or personal data in code, logs or screenshots
-- [ ] Accessibility checked (keyboard, screen reader, contrast) for UI changes
+## How it was checked
+
+| Check | What it shows | Result |
+|-------|---------------|--------|
+| [Plain description of a test, with its counts: passed, failed, skipped] | [What passing proves] | Passed / Failed / Not run |
+
+**Not checked:** [anything that could not be tested, and why].
+
+## Risk and how to undo it
+
+- **Risk level:** Low / Medium / High. [One sentence of reasoning.]
+- **What could go wrong:** [the realistic worst case, in business terms].
+- **Who would notice, and how:** [alert, customer report, dashboard].
+- **How to undo:** [steps and how long it takes]. [Say plainly if it cannot be easily undone.]
+
+## What the reviewer should look at
+
+Where a human's judgement is most valuable.
+
+## What this does not do
+
+Related things left for later, each with an issue link.
+
+## Release notes
+
+One sentence suitable for telling customers or staff, or "No announcement needed."
+
+---
+
+## Technical details
+
+- Summary of changes by area.
+- Anything needed at release time: settings, data changes, order of steps.
+- Decisions made in the code that are not in the issue.
+
+_Written by an AI agent, supervised by [person]. Say which parts, if any, a person wrote or reviewed._
